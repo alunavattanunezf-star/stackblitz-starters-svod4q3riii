@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;/*se ajusta al tamño del contenedor*/
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+header{
+  background-color: #000;
+}
+#logos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#copa img {
+  width: 100px;
+}
+#fifa img {
+  width: 191px;
+}
+/*fin del header*/
+
+/*comienzo del nav*/
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-bottom: solid 1px #aaa;
+  background-color: #eee;
+  text-transform: uppercase;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+}
+
+nav a[aria-current='page'] {
+  color: #000;
+  background-color: #d4d4d4;
+}
+.activo{
+  border-bottom: 5px solid rgb(105, 43, 43);
+  box-shadow: 5px 5px lightgray;
+}
+
+/*fin del nav*/
+/*inicio main*/
+section{
+  width: 900px;
+  height: 400px;
+  background-color: red;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+section div{
+  width: 33%;
+  height: 350px;
+  background-color: rgb(90, 20, 20);
+  margin-left: 2px;
+}
+#intro{
+  box-shadow: 5px 3px;
+  border-radius: 15px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMMOyeLQIlES7G2Bah7s3LlYUsC6FZB3uBQ&s)
+}
+#eeuu{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/250px-Flag_of_the_United_States_%28Pantone%29.svg.png);
+  background-size: cover;
+}
+#mx{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWUGzshQWvCBnD6YHdtpMY9UoHvs_pmq2fEA&s);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#can{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Canada_%283-2%29.svg/3840px-Flag_of_Canada_%283-2%29.svg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+/*fin main*/
+/*Comienzo de estadios*/
+table, td,th{
+  background-color: rgb(33, 4, 4) 8px solid;
+}
+
+
+/*inicio del footer*/
+footer{background-color:#000; 
+color:#d4d4d4;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+#colegio{
+width: 33%;
+background-color: red;
+padding: 5px;
+}
+#alumno{
+width: 33%;
+background-color: yellow;
+color: #aaa;
+padding: 5px;
+}
+#redes{
+  width: 33%;
+  background-color: lightblue;
+  padding: 5px;
+}
+#redes img {
+  width: 50px;
+}
+
+/*fin del footer*/
+
+
+
+
+
+
+
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
