@@ -170,3 +170,11 @@ h1 {
 }
 
 /*estadios*/
+
+#estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th{
+  border: solid crimson 3px;
+  border-collapse: collapse;
+}
+#estadosunidos img{
+  width: 200px;
+}
