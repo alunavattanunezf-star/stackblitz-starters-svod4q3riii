@@ -72,28 +72,30 @@ section{
   justify-content: center;
   }
 section div{
-  width: 33%;
-  height: 350px;
+  width: 300px;
+  height: 170px;
   background-color: rgb(90, 20, 20);
-  margin-left: 2px;
+  margin: 5px;
 }
 #intro{
-  box-shadow: 5px 3px;
+  box-shadow: 7px 5px;
   border-radius: 15px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMMOyeLQIlES7G2Bah7s3LlYUsC6FZB3uBQ&s)
 }
 #eeuu{
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/250px-Flag_of_the_United_States_%28Pantone%29.svg.png);
+  background-image: url(../img/banderaeeuu.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #mx{
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWUGzshQWvCBnD6YHdtpMY9UoHvs_pmq2fEA&s);
+  background-image: url(../img/banderamx.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 #can{
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Canada_%283-2%29.svg/3840px-Flag_of_Canada_%283-2%29.svg.png);
+  background-image: url(../img/banderacan.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
