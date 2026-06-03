@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;/*se ajusta al tamño del contenedor*/
+  box-sizing: border-box;
+  /*se ajusta al tamño del contenedor*/
 }
 
 body {
@@ -8,23 +9,27 @@ body {
   color: black;
   background-color: white;
 }
-header{
+
+header {
   background-color: #000;
 }
+
 #logos {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
 }
+
 #copa img {
   width: 100px;
 }
+
 #fifa img {
   width: 191px;
 }
-/*fin del header*/
 
+/*fin del header*/
 /*comienzo del nav*/
 nav {
   display: flex;
@@ -53,14 +58,15 @@ nav a[aria-current='page'] {
   color: #000;
   background-color: #d4d4d4;
 }
-.activo{
+
+.activo {
   border-bottom: 5px solid rgb(105, 43, 43);
   box-shadow: 5px 5px lightgray;
 }
 
 /*fin del nav*/
 /*inicio main*/
-section{
+section {
   width: 900px;
   height: 400px;
   background-color: red;
@@ -70,83 +76,83 @@ section{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  }
-section div{
+}
+
+section div {
   width: 300px;
   height: 170px;
   background-color: rgb(90, 20, 20);
   margin: 5px;
 }
-#intro{
+
+#intro {
   box-shadow: 7px 5px;
   border-radius: 15px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMMOyeLQIlES7G2Bah7s3LlYUsC6FZB3uBQ&s)
 }
-#eeuu{
+
+#eeuu {
   background-image: url(../img/banderaeeuu.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-#mx{
+
+#mx {
   background-image: url(../img/banderamx.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-#can{
+
+#can {
   background-image: url(../img/banderacan.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-
-
-
 /*fin main*/
 /*Comienzo de estadios*/
-table, td,th{
+table,
+td,
+th {
   background-color: rgb(33, 4, 4) 8px solid;
 }
 
-
 /*inicio del footer*/
-footer{background-color:#000; 
-color:#d4d4d4;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
+footer {
+  background-color: #000;
+  color: #d4d4d4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-#colegio{
-width: 33%;
-background-color: red;
-padding: 5px;
+
+#colegio {
+  width: 33%;
+  background-color: red;
+  padding: 5px;
 }
-#alumno{
-width: 33%;
-background-color: yellow;
-color: #aaa;
-padding: 5px;
+
+#alumno {
+  width: 33%;
+  background-color: yellow;
+  color: #aaa;
+  padding: 5px;
 }
-#redes{
+
+#redes {
   width: 33%;
   background-color: lightblue;
   padding: 5px;
 }
+
 #redes img {
   width: 50px;
 }
 
 /*fin del footer*/
-
-
-
-
-
-
-
-
 main {
   padding: 1rem;
 }
